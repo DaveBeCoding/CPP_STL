@@ -8,10 +8,10 @@ FORMATFLAGS += -style=Google --Werror
 TIDY = clang-tidy
 TIDYFLAGS += -checks=*,-google-build-using-namespace,-fuchsia-default-arguments,-llvm-header-guard,-cppcoreguidelines-owning-memory,-modernize-use-nodiscard,-readability-magic-numbers,-cppcoreguidelines-avoid-magic-numbers,-modernize-pass-by-value,-fuchsia-overloaded-operator,-hicpp-special-member-functions,-google-explicit-constructor,-hicpp-explicit-conversions,-cppcoreguidelines-special-member-functions,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-hicpp-exception-baseclass
 
-TARGET = citysolver
+TARGET = nutest
 # C++ Files
 # CXXFILES = LatLon.cpp citysolver.cpp
-CXXFILES = test.cpp
+CXXFILES = main.cpp test.cpp
 # Headers
 # HEADERS = LatLon.hpp
 HEADERS = test.hpp

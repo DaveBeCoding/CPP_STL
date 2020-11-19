@@ -1,5 +1,5 @@
 // #include "test.hpp" //this doesnt work, with or without make file
-#include "test.cpp" // this doesnt work with make file, but compiles program,
+#include "test.hpp" // this doesnt work with make file, but compiles program,
 // running: clang++ -g -Wall -std=c++11 main.cpp
 
 const int FLAG_To_STOP = -1;
