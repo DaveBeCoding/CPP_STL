@@ -9,3 +9,5 @@ test::test(int x) : x_(x)
 }
 
 int test::get_num() { return x_; };
+
+test::~test() {}

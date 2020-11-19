@@ -25,5 +25,4 @@ public:
   // auto contains() const -> std::vector<int>;
 };
 
-test::~test() {}
 #endif
